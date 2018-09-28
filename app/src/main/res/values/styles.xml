@@ -1,0 +1,132 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorSinoPrime</item>
+        <item name="colorPrimaryDark">@color/colorSinoPrime</item>
+        <item name="colorAccent">@color/colorSinoSecond</item>
+    </style>
+    <style name="TextTitleLogin" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextEditTextFeedback" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextLogin" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorBackgroundToolbarBlue</item>
+    </style>
+    <style name="TextButtonBluelight" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="TextTitleGlobalWhite" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="TextTitleCategogyDialog" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="ItemNameMainscreen" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ItemAuthorMainscreen" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorTextDecriptionGray</item>
+    </style>
+    <style name="TextSearchBox" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TextTitleButtonBlue" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="TextResult" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/colorGrayBlack</item>
+    </style>
+    <style name="TextTitleItemResult" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/colorGrayBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAuthorItemResult" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorGrayBlack</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="TextTabName" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorGrayforText</item>
+    </style>
+    <style name="TextTitleDetailBlue" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorBlueLight</item>
+    </style>
+    <style name="TextListInfoDetailGray" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorGrayforText</item>
+    </style>
+    <style name="TextListInfoDetailBlack" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="TextCountDetailGray" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorGrayforText</item>
+    </style>
+    <style name="TextCountSmallSizeDetailGray" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorGrayforText</item>
+    </style>
+    <style name="TextTitleMenu" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextTitleMenuChil" parent="@style/TextAppearance.Design.Counter">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="TextDetailContent" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorBlackGrayContentText</item>
+    </style>
+    <style name="TextSubTitleNews" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/colorGrayBlack</item>
+    </style>
+    <style name="TextTimeNews" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorGrayforText</item>
+    </style>
+    <style name="TextTitleNews" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/colorGrayBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextDetailTitle" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorGrayBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextDetailSubtitle" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorBlackGrayContentText</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TextDetailCaptionImage" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorGrayforText</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>
